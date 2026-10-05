@@ -1,0 +1,28 @@
+## Visual Studio / IDE
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.pdb
+
+## Local databases (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+## Secrets & local config
+appsettings.*.local.json
+*.env
+
+## OS files
+Thumbs.db
+.DS_Store
